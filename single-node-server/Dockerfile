@@ -4,8 +4,7 @@ FROM node:8.11-slim
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-RUN echo "WORK DIRECTORY!!!!"
-RUN echo "WORK DIRECTORY!!!!"
+RUN echo "WORK DIRECTORY CREATED!!!!"
 
 # copying all the files from your file system to container file system
 COPY package.json .
